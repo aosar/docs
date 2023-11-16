@@ -19,9 +19,21 @@ From Normal Mode:
 - `dd` - delete the current line
 - `:w` - write the file (if you are using vscode extension this isnt necessary)
 
-
 From Insert Mode:
 - `esc` - go back to normal mode
 
 I usually press 2-3 times just in case I accidentally entered a weird mode like visual mode.
 If things go totally crazy for no reason, you probably have your caps lock on.
+
+
+## VSCode Integration
+I use the VSCode extension for vim so I can use it in my normal workspace. I find the experience seamless with the right configuration. These are the settings I prefer:
+```
+{
+    "vim.useCtrlKeys": false,
+    "vim.handleKeys": {
+      "<C-E>": true,
+      "delete": true
+    }
+}
+```
