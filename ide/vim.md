@@ -37,3 +37,22 @@ I use the VSCode extension for vim so I can use it in my normal workspace. I fin
     }
 }
 ```
+
+## Some other commands I enjoy
+
+It gets complicated fast but most of the commands follow the same conventions, like 3yy yanks 3 lines and 3dd deletes 3 lines. Like I said I'd start with the aforementioned commands so it's not as much to take in at once, but that's ultimately up to you.
+
+- `ciw` removes the word your cursor is on, I use that a lot. Puts in insert mode.
+- `ci*` where `*` is an enclosing character such as ( or " . If your cursor is in between an enclosing character will remove all text inside of it and put you in insert mode.
+- `shift` + `c` - Delete everthing to EOL and go into insert mode.
+
+Note: all of the above commands can replace `c` with `d` if you do not want to enter insert mode.
+
+- `shift` + `j` - throw the next line into the same line as the current line
+- `zz` - center the document to the current line (navigation)
+
+## Commands I use sometimes
+- `ctrl` + `u | d` - navigate up/down half a page. Note: this can be an issue with macs.
+  - Similar to `u` and `d` commands when viewing files with `less` or `more`
+- `.` - do what you just did again
+- `x` and `Nx` - delete character or next N characters
