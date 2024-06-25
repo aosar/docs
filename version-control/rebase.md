@@ -1,10 +1,8 @@
 # Rebase instead of Merging
 
-A manifesto:
-
 I prefer to rebase and/or cherry-pick commits in lieu of merging whenever possible. This reduces excess and redundant commit messages and keeps the commit history clean. This makes it easier to track changes and revert if necessary. It also makes future cherry-picking easier if you want to test an isolated set of changes.
 
-Of course, there are downsides. Many are not familiar with this process, and teams tend to use workflows that rely on squashing commits to reduce commit noise that occurs during development. This can cause problems when trying to rebase back the other way.** However, when well-coordinated, I think the benefits can shine through. Unfortunately, it can be difficult to get started since it is more manual than the default merge workflow, and uses commands developers are less familiar with.
+Of course, there are downsides. If the branch has diverged too much, it will be difficult to resolve. Rewriting history can also be problematic if changes exist remotely, particularly if someone else has checked out the branch. Additionally, many developers are not familiar rebasing, and teams tend to use workflows that rely on squashing commits to reduce commit noise that occurs during development. This can cause problems when trying to rebase back the other way.** However, when well-coordinated, I think the benefits can shine through. Unfortunately, it can be difficult to get started since it is more manual than the default merge workflow, more to mentally keep tabs on, and uses commands developers are less familiar with.
 
 I will not talk about what rebase, merge, or cherry-picking is here. Google is your friend.
 
